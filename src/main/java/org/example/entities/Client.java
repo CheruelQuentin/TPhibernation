@@ -1,4 +1,4 @@
-package org.example;
+package org.example.entities;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -40,7 +40,7 @@ public class Client {
         this.id = id;
     }
 
-    @Id
+
     @Column(name="CLI_NOM")
     public String getNom() {
         return nom;
@@ -50,7 +50,7 @@ public class Client {
         this.nom = nom;
     }
 
-    @Id
+
     @Column(name="CLI_PRENOM")
     public String getPrenom() {
         return prenom;
@@ -61,7 +61,7 @@ public class Client {
     }
 
 
-    @Id
+
     @Column(name="CLI_TELEPHONE")
     public String getTelephone() {
         return telephone;
